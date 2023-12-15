@@ -16,7 +16,6 @@ def generate_audio(phrase):
         print(f"Erro ao sintetizar o áudio: {str(e)}")
 
 if __name__ == "__main__":
-    terminal = ""
     while True:
         terminal = str(input("Digite uma frase (digite sair, para encerrar):"))
         
