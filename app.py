@@ -1,8 +1,6 @@
-import speech_recognition as sr
 from gtts import gTTS
 import pyttsx3 
  
-r = sr.Recognizer() 
  
 def speak_text(command):     
     engine = pyttsx3.init()
